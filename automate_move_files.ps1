@@ -22,6 +22,3 @@ foreach($extension in $extensions){
     $items = Join-Path $source $extension
     Move-Item -Path $items -Destination $new_path 
 }
-
-
-# "C:\Users\ocarpent\Downloads" "C:\Users\ocarpent\Documents\PDF" "*.pdf"
